@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_pagina_aap.css">
+    <title>Santo Temazos</title>
+</head>
+<body>
+    <header class="titulo">
+        <div class="logotipo">
+            <div class="imagen">
+                <img src="imagenes/Santo Temazo.png" alt="Santo Temazo">
+            </div>
+            <h1 class="texto_logo">Santo Temazos</h1>
+        </div>
+        <nav class="menus">
+            <a href="#">Inicio</a>
+            <a href="#">Descubrir</a>
+            <a href="#">Mi biblioteca</a>
+        </nav>
+    </header>
+    <main class="clases">
+        <section class="buscar_cancion">
+            <h1>Encuentra tu próximo temazo</h1>
+            <p>Filtra por canción, artista, álbum o año de lanzamiento</p>
+            <form class="buscar">
+                <div class="elegir">
+                    <label for="musica">Música (Canción)</label>
+                    <input type="text" id="musica" placeholder="¿Que quieres escuchar?" required>
+                </div>
+                <div class="elegir">
+                    <label for="artista">Artista</label>
+                    <input type="text" id="artista" placeholder="Nombre del artista" required>
+                </div>
+                <div class="elegir">
+                    <label for="album">Álbum</label>
+                    <input type="text" id="album" placeholder="Nombre del album" required>
+                </div>
+                <div class="elegir">
+                    <label for="fecha">Fecha de lanzamiento</label>
+                    <input type="date" id="fecha">
+                </div>
+                <button type="submit" class="botom">Buscar Temazo</button>
+            </form>
+        </section>
+        <section class="canciones">
+            <h2>Novedades de la semana</h2>
+            <div class="cajas">
+                <article class="contenedor-tarjeta">
+                    <div class="tarjeta">
+                        <img src="imagenes/Buenas Noches.jpg" alt="Quevedo" class="imagen-tarjeta">
+                    </div>
+                <div class="informacion">
+                    <h3>Buenas Noches</h3>
+                    <p>Quevedo</p>
+                    <p>Buenas Noches</p>
+                    <p>22 Noviembre 2024</p>
+                </div>
+            </article>
+            <article class="contenedor-tarjeta">
+                <div class="tarjeta">
+                    <img src="imagenes/Wo Oh Oh.jpg" alt="OmarCourtz" class="imagen-tarjeta">
+                </div>
+                <div class="informacion">
+                    <h3>Wo Oh Oh</h3>
+                    <p>Omar Courtz</p>
+                    <p>Por si mañana no estoy</p>
+                    <p>19 Febrero 2026</p>
+                </div>
+            </article>
+            <article class="contenedor-tarjeta">
+                <div class="tarjeta">
+                    <img src="imagenes/Tambores de guerra.jpg" alt="ManuelCarrasco" class="imagen-tarjeta">
+                </div>
+                <div class="informacion">
+                    <h3>Tambores de Guerra</h3>
+                    <p>Manuel Carrasco</p>
+                    <p>Bailar el Viento</p>
+                    <p>30 Octubre 2015</p>
+                </div>
+            </article>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Santo Temazos. Sube el volumen</p>
+    </footer>
+</body>
+</html>
